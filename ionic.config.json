@@ -1,0 +1,19 @@
+{
+  "name": "CCEMS2",
+  "app_id": "ffa6bb4b",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "type": "ionic1",
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+}
